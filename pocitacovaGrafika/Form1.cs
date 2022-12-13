@@ -16,5 +16,10 @@ namespace pocitacovaGrafika
         {
             InitializeComponent();
         }
+
+        private void zobrazitFotoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
