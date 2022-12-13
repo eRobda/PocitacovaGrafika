@@ -32,6 +32,7 @@
             this.souborToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zobrazitFotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.zobrazitFotoOVelikostiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.přehrávatFotoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,7 +50,8 @@
             // 
             this.souborToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zobrazitFotoToolStripMenuItem,
-            this.zobrazitFotoOVelikostiToolStripMenuItem});
+            this.zobrazitFotoOVelikostiToolStripMenuItem,
+            this.přehrávatFotoToolStripMenuItem});
             this.souborToolStripMenuItem.Name = "souborToolStripMenuItem";
             this.souborToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.souborToolStripMenuItem.Text = "Soubor";
@@ -67,11 +69,18 @@
             this.zobrazitFotoOVelikostiToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
             this.zobrazitFotoOVelikostiToolStripMenuItem.Text = "Zobrazit foto o velikosti...";
             // 
+            // přehrávatFotoToolStripMenuItem
+            // 
+            this.přehrávatFotoToolStripMenuItem.Name = "přehrávatFotoToolStripMenuItem";
+            this.přehrávatFotoToolStripMenuItem.Size = new System.Drawing.Size(207, 22);
+            this.přehrávatFotoToolStripMenuItem.Text = "Přehrávat foto";
+            this.přehrávatFotoToolStripMenuItem.Click += new System.EventHandler(this.přehrávatFotoToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 561);
+            this.ClientSize = new System.Drawing.Size(986, 566);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
@@ -89,6 +98,7 @@
         private System.Windows.Forms.ToolStripMenuItem souborToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zobrazitFotoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem zobrazitFotoOVelikostiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem přehrávatFotoToolStripMenuItem;
     }
 }
 
